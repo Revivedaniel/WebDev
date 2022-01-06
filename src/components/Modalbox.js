@@ -5,7 +5,7 @@ const Modalbox = ({ close, value }) => {
   const data = [
     {
       name: "Game Watch",
-      tag: "Full Stack Web Application",
+      tag: "Full Stack Web Application, Video Games",
       desc: [
         {
           p: "With this project we are tackling the problem of not having quick video game information. Now users have the ability to search the video games they want more information about and leave reviews.",
@@ -13,6 +13,17 @@ const Modalbox = ({ close, value }) => {
       ],
       gitHub: "GameWatch",
       liveSite: "https://lazy-afternoon-game-watch.herokuapp.com/",
+    },
+    {
+      name: "Midnight Motorsports",
+      tag: "Full Stack Web Application, E-commerce",
+      desc: [
+        {
+          p: "Midnight Motorsports is an autopart e-commerce site. Where users can browse through the products and add them to their cart. The site uses Stripe to create a user friendly experience while keeping the users data highly secure. The site is built with Next.js as the frontend and Keystone for the backend and CMS. As for the database we are using mongoose to interface with a NoSQL database called MongoDB.",
+        },
+      ],
+      gitHub: "midnightmotorsports-next",
+      liveSite: "https://midnight-motorsports.herokuapp.com/"
     },
   ];
 
@@ -62,7 +73,13 @@ const Modalbox = ({ close, value }) => {
                         {des.p}
                       </p>
                     ))}
-                    <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-evenly",
+                        alignItems: "center",
+                      }}
+                    >
                       <div
                         style={{
                           width: "64px",
@@ -80,7 +97,11 @@ const Modalbox = ({ close, value }) => {
                       />
                       <a
                         href={d.liveSite}
-                        style={{ cursor: "pointer", textDecoration: "none", fontSize: "1.5rem" }}
+                        style={{
+                          cursor: "pointer",
+                          textDecoration: "none",
+                          fontSize: "1.5rem",
+                        }}
                         target="_blank"
                       >
                         Live Site
