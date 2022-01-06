@@ -12,6 +12,7 @@ const Modalbox = ({ close, value }) => {
         },
       ],
       gitHub: "GameWatch",
+      liveSite: "https://lazy-afternoon-game-watch.herokuapp.com/",
     },
   ];
 
@@ -61,24 +62,30 @@ const Modalbox = ({ close, value }) => {
                         {des.p}
                       </p>
                     ))}
-                    <div
-                      style={{
-                        width: "64px",
-                        height: "64px",
-                        backgroundImage: "url(img/GitHub-Mark-64px.png)",
-                        backgroundColor: "white",
-                        borderRadius: "50%",
-                      }}
-                      onClick={() =>
-                        window.open(
-                          `https://github.com/Revivedaniel/${d.gitHub}`,
-                          "_blank"
-                        )
-                      }
-                    />
-                    <a href={d.liveSite} style={{ cursor: "pointer" }}>
-                      Live Site
-                    </a>
+                    <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+                      <div
+                        style={{
+                          width: "64px",
+                          height: "64px",
+                          backgroundImage: "url(img/GitHub-Mark-64px.png)",
+                          backgroundColor: "white",
+                          borderRadius: "50%",
+                        }}
+                        onClick={() =>
+                          window.open(
+                            `https://github.com/Revivedaniel/${d.gitHub}`,
+                            "_blank"
+                          )
+                        }
+                      />
+                      <a
+                        href={d.liveSite}
+                        style={{ cursor: "pointer", textDecoration: "none", fontSize: "1.5rem" }}
+                        target="_blank"
+                      >
+                        Live Site
+                      </a>
+                    </div>
                   </div>
                 )
             )}
