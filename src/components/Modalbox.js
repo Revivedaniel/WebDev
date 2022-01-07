@@ -25,6 +25,17 @@ const Modalbox = ({ close, value }) => {
       gitHub: "midnightmotorsports-next",
       liveSite: "https://midnight-motorsports.herokuapp.com/"
     },
+    {
+      name: "Lazy Afternoon Blog",
+      tag: "Full Stack Web Application, Blog, Video Games",
+      desc: [
+        {
+          p: "Lazy Afternoon Blog is a blog site where users can post and share their thoughts about Video Games with other users. The site is built with Handlebars.js as the View and Express.js as the Controller. As for the database we are using Sequelize to interface interface with MySQL and model our data.",
+        }
+      ],
+      gitHub: "LazyAfternoonBlog",
+      liveSite: "https://lazy-afternoon-blog.herokuapp.com/"
+    }
   ];
 
   const [index, setIndex] = useState(value);
