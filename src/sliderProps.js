@@ -7,7 +7,8 @@ import SwiperCore, {
 SwiperCore.use([Pagination, Navigation, Autoplay, EffectFade]);
 
 export const portfolioSliderProps = {
-  slidesPerView: 1,
+  // Change this is the slide images are breaking
+  slidesPerView: 3,
   loop: true,
   spaceBetween: 30,
   speed: 1000,
