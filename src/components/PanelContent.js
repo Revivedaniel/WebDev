@@ -4,10 +4,10 @@ const PanelContent = () => {
   useEffect(() => {
     const Typed = require("typed.js");
     new Typed(".animated_title", {
-      strings: ["Bruce Wilson", "Web Developer", "Freelancer", "Photographer"],
+      strings: ["Daniel Stark", "A Software Engineer", "A Web Developer", "A Sound Designer", "A Gamer"],
       loop: true,
       smartBackspace: false,
-      typeSpeed: 40,
+      typeSpeed: 50,
       startDelay: 700,
       backDelay: 3e3,
     });
@@ -22,7 +22,7 @@ const PanelContent = () => {
           <div className="abs_img" data-bg-img="img/right.jpg" />
         </div>
         <div className="title_holder">
-          <h5>Hi There! I am Daniel Stark</h5>
+          <h5>Hi There! I am</h5>
           <p className="h3">
             <span className="animated_title" />
           </p>
