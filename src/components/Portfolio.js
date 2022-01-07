@@ -9,7 +9,7 @@ const Portfolio = () => {
     <section id="portfolio">
       {modal && <Modalbox close={setModal} value={modalValue} />}
       <div className="container">
-        <div className="roww">
+        <div className="row">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
             <div className="my__nav">
@@ -46,7 +46,10 @@ const Portfolio = () => {
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
                 {/* Put project image in this div as data-bg-img */}
-                <div className="abs_img" data-bg-img="img/portfolio/gameWatch.jpg" />
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/gameWatch.jpg"
+                />
               </div>
               <div className="title_holder">
                 {/* Project type */}
@@ -55,21 +58,6 @@ const Portfolio = () => {
                   {/* Project name */}
                   <a href="#">Game Watch</a>
                 </h3>
-              </div>
-              <div className="fn__hidden">
-                {/* Project type */}
-                <p className="fn__cat">Full Stack Web Application</p>
-                {/* Project name */}
-                <h3 className="fn__title">Game Watchasdasdfa</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  {/* Put project image in this div as data-bg-img */}
-                  <div className="abs_img" data-bg-img="img/portfolio/gameWatch.jpg" />
-                </div>
-                {/* Put project desription here */}
-                <p className="fn__desc">
-                With this project we are tackling the problem of not having quick video game information. Now users have the ability to search the video games they want more information about and leave reviews.
-                </p>
               </div>
             </SwiperSlide>
             <SwiperSlide
@@ -85,7 +73,10 @@ const Portfolio = () => {
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
                 {/* Put project image in this div as data-bg-img */}
-                <div className="abs_img" data-bg-img="img/portfolio/midnightMotorsports.PNG" />
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/midnightMotorsports.PNG"
+                />
               </div>
               <div className="title_holder">
                 {/* Project type */}
@@ -95,20 +86,32 @@ const Portfolio = () => {
                   <a href="#">Midnight Motorsports</a>
                 </h3>
               </div>
-              <div className="fn__hidden">
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModalValue(3);
+                setModal(true);
+                // Increment per project
+              }}
+              // Increment per project
+              data-index={3}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                {/* Put project image in this div as data-bg-img */}
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/lazyAfternoonBlog.PNG"
+                />
+              </div>
+              <div className="title_holder">
                 {/* Project type */}
-                <p className="fn__cat">Full Stack Web Application, E-commerce</p>
-                {/* Project name */}
-                <h3 className="fn__title">Midnight Motorsports</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  {/* Put project image in this div as data-bg-img */}
-                  <div className="abs_img" data-bg-img="img/portfolio/midnightMotorsports.PNG" />
-                </div>
-                {/* Put project desription here */}
-                <p className="fn__desc">
-                Midnight Motorsports is an autopart e-commerce site. Where users can browse through the products and add them to their cart. The site uses Stripe to create a user friendly experience while keeping the users credit card information highly secure. The site is built with Next.js as the frontend and Keystone for the backend and CMS. As for the database we are using mongoose to interface with a NoSQL database called MongoDB.
-                </p>
+                <p>Full Stack Web Application, Social, Video Games</p>
+                <h3>
+                  {/* Project name */}
+                  <a href="#">Lazy Afternoon Blog</a>
+                </h3>
               </div>
             </SwiperSlide>
           </Swiper>
