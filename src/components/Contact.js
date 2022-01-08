@@ -1,8 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
 
+
 const Contact = () => {
   const [defaultError, setDefaultError] = useState("Please Fill Required Fields!");
+  let CONTACT = "https://stark-portfolio.herokuapp.com/api/messages";
   const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
   const [active, setActive] = useState(null);
   const [error, setError] = useState(false);
@@ -14,9 +16,8 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (email && name && phone && msg) {
-      console.log(process.env.CONTACT)
       axios
-        .post(process.env.CONTACT, {
+        .post(CONTACT, {
           name: name,
           email: email,
           message: msg,
