@@ -14,6 +14,7 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (email && name && phone && msg) {
+      console.log(process.env.CONTACT)
       axios
         .post(process.env.CONTACT, {
           name: name,
