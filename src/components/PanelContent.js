@@ -32,7 +32,7 @@ const PanelContent = () => {
         <a href="#contact">
           <span className="circle" />
           <span className="text">
-            I’m available for a freelance job. Hire me
+            I’m available for employment and freelance. Hire me
           </span>
         </a>
       </div>
