@@ -26,8 +26,12 @@ const About = () => {
                     <th>Daniel Stark</th>
                   </tr>
                   <tr>
-                    <th>Address</th>
-                    <th>La Habra</th>
+                    <th>Location</th>
+                    <th>Orange County, CA</th>
+                  </tr>
+                  <tr>
+                    <th>linkedin</th>
+                    <th><a href="https://www.linkedin.com/in/dannyjstark/" target="_blank">Daniel Stark</a></th>
                   </tr>
                   <tr>
                     <th>Phone</th>
@@ -49,7 +53,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="img/cv.jpg" download>
+                <a href="img/Daniel_Stark.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +83,7 @@ const About = () => {
                       <path d="M217.339,252.865c3.706,4.04,9.986,4.31,14.025,0.603c0.21-0.192,0.411-0.394,0.603-0.603l71.053-71.576   c3.462-4.617,2.527-11.166-2.09-14.629c-3.715-2.786-8.824-2.786-12.539,0l-53.29,53.29V21.42   c0-5.771-4.678-10.449-10.449-10.449s-10.449,4.678-10.449,10.449v198.531l-53.29-53.29c-4.617-3.462-11.166-2.527-14.629,2.09   c-2.786,3.715-2.786,8.824,0,12.539L217.339,252.865z" />
                     </svg>
                   </span>
-                  <span>Download CV</span>
+                  <span>Download Resume</span>
                 </a>
               </div>
               {/* /Download CV Button */}
@@ -137,7 +141,7 @@ const About = () => {
                       <h3 className="progress_title">HTML5, CSS3, JavaScript ES6+, jQuery, JSX</h3>
                     </div>
                     <div className="item_in">
-                      <h3 className="progress_title">C#, SQL, NoSQL, Git</h3>
+                      <h3 className="progress_title">C#, Typescript, SQL, NoSQL, Git</h3>
                     </div>
                     <div className="item_in">
                       <h3 className="progress_title">React, Next, Handlebars, Apollo, Bootstrap</h3>
