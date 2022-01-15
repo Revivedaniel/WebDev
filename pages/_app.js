@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link rel="icon" href="img/favicon.ico" />
-        <meta name="description" content="personal portfolio react template" />
+        <meta name="description" content="Daniel Starks Software Engineer Porfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
       </Head>
       <Component {...pageProps} />
