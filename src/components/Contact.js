@@ -172,8 +172,8 @@ const Contact = () => {
               <a href="tel:+16575290501">(+1) 657 529-0501</a>
             </h3>
             <p>
-              <a className="fn__link" href="mailto:webdevstark@gmail.com">
-                webdevstark@gmail.com
+              <a className="fn__link" href="mailto:contact@danielstark.dev">
+                contact@danielstark.dev
               </a>
             </p>
           </div>

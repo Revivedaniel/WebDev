@@ -4,15 +4,15 @@ import { dataImage } from "../utilits";
 const Modalbox = ({ close, value }) => {
   const data = [
     {
-      name: "Game Watch",
+      name: "Before You Play",
       tag: "Full Stack Web Application, Video Games",
       desc: [
         {
           p: "With this project we are tackling the problem of not having quick video game information. Now users have the ability to search the video games they want more information about and leave reviews.",
         },
       ],
-      gitHub: "GameWatch",
-      liveSite: "https://lazy-afternoon-game-watch.herokuapp.com/",
+      gitHub: "BeforeYouPlay",
+      liveSite: "https://beforeyouplay.herokuapp.com/",
     },
     {
       name: "Midnight Motorsports",
@@ -23,7 +23,6 @@ const Modalbox = ({ close, value }) => {
         },
       ],
       gitHub: "midnightmotorsports-next",
-      liveSite: "https://midnight-motorsports.herokuapp.com/"
     },
     {
       name: "Lazy Afternoon Blog",
@@ -31,11 +30,11 @@ const Modalbox = ({ close, value }) => {
       desc: [
         {
           p: "Lazy Afternoon Blog is a blog site where users can post and share their thoughts about Video Games with other users. The site is built with Handlebars.js as the View and Express.js as the Controller. As for the database we are using Sequelize to interface interface with MySQL and model our data.",
-        }
+        },
       ],
       gitHub: "LazyAfternoonBlog",
-      liveSite: "https://lazy-afternoon-blog.herokuapp.com/"
-    }
+      liveSite: "https://lazy-afternoon-blog.herokuapp.com/",
+    },
   ];
 
   const [index, setIndex] = useState(value);
@@ -95,6 +94,7 @@ const Modalbox = ({ close, value }) => {
                         style={{
                           width: "64px",
                           height: "64px",
+                          cursor: "pointer",
                           backgroundImage: "url(img/GitHub-Mark-64px.png)",
                           backgroundColor: "white",
                           borderRadius: "50%",
@@ -106,17 +106,19 @@ const Modalbox = ({ close, value }) => {
                           )
                         }
                       />
-                      <a
-                        href={d.liveSite}
-                        style={{
-                          cursor: "pointer",
-                          textDecoration: "none",
-                          fontSize: "1.5rem",
-                        }}
-                        target="_blank"
-                      >
-                        Live Site
-                      </a>
+                      {d.liveSite && (
+                        <a
+                          href={d.liveSite}
+                          style={{
+                            cursor: "pointer",
+                            textDecoration: "none",
+                            fontSize: "1.5rem",
+                          }}
+                          target="_blank"
+                        >
+                          Live Site
+                        </a>
+                      )}
                     </div>
                   </div>
                 )

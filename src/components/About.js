@@ -42,8 +42,8 @@ const About = () => {
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:webdevstark@gmail.com">
-                        webdevstark@gmail.com
+                      <a href="mailto:contact@danielstark.dev">
+                        contact@danielstark.dev
                       </a>
                     </th>
                   </tr>
@@ -159,7 +159,7 @@ const About = () => {
                 {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                  As a Software Engineer, I am well based in many technologies. Most of which are Web; However, I am moving into Video Game Development, Thus learning more .Net Core, C#, and Unity.
+                  As a Software Engineer, I am well based in many technologies. Most of which being Web. However, I recently started developing video games for fun. I've been learning more .Net Core, C#, and Unity.
                   </p>
                 </div>
               </div>
