@@ -48,7 +48,7 @@ const Portfolio = () => {
                 {/* Put project image in this div as data-bg-img */}
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/gameWatch.jpg"
+                  data-bg-img="img/portfolio/beforeYouPlay.jpg"
                 />
               </div>
               <div className="title_holder">
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 <p>Full Stack Web Application</p>
                 <h3>
                   {/* Project name */}
-                  <a href="#">Game Watch</a>
+                  <a href="#">Before You Play</a>
                 </h3>
               </div>
             </SwiperSlide>

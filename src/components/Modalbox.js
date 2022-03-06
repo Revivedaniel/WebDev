@@ -8,7 +8,7 @@ const Modalbox = ({ close, value }) => {
       tag: "Full Stack Web Application, Video Games",
       desc: [
         {
-          p: "With this project we are tackling the problem of not having quick video game information. Now users have the ability to search the video games they want more information about and leave reviews.",
+          p: "A Full-Stack MERN Video Game information and Review website. This is a Create React App using GraphQL, Node.js, and MongoDB. Before You Play is in its MVP stage and is an ongoing project.",
         },
       ],
       gitHub: "BeforeYouPlay",
@@ -19,7 +19,7 @@ const Modalbox = ({ close, value }) => {
       tag: "Full Stack Web Application, E-commerce",
       desc: [
         {
-          p: "Midnight Motorsports is an autopart e-commerce site. Where users can browse through the products and add them to their cart. The site uses Stripe to create a user friendly experience while keeping the users data highly secure. The site is built with Next.js as the frontend and Keystone for the backend and CMS. As for the database we are using mongoose to interface with a NoSQL database called MongoDB.",
+          p: "A Full-Stack MERN auto part e-commerce website. This site utilizes Next.js framework for the frontend, Keystone for the backend, and MongoDB for the database. Midnight Motorsports is still being developed but the code is open source.",
         },
       ],
       gitHub: "midnightmotorsports-next",
@@ -29,7 +29,7 @@ const Modalbox = ({ close, value }) => {
       tag: "Full Stack Web Application, Blog, Video Games",
       desc: [
         {
-          p: "Lazy Afternoon Blog is a blog site where users can post and share their thoughts about Video Games with other users. The site is built with Handlebars.js as the View and Express.js as the Controller. As for the database we are using Sequelize to interface interface with MySQL and model our data.",
+          p: "Full-Stack blog site where users can post and share their thoughts about many topics with other users.",
         },
       ],
       gitHub: "LazyAfternoonBlog",

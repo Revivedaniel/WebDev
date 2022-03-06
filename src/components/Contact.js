@@ -169,7 +169,7 @@ const Contact = () => {
           <div className="resumo_fn_contact_info">
             <p>Phone</p>
             <h3>
-              <a href="tel:+16575290501">(+1) 657 529-0501</a>
+              <a href="tel:+16575290501">(+1) 949 396-3988</a>
             </h3>
             <p>
               <a className="fn__link" href="mailto:contact@danielstark.dev">

@@ -4,7 +4,7 @@ const PanelContent = () => {
   useEffect(() => {
     const Typed = require("typed.js");
     new Typed(".animated_title", {
-      strings: ["Daniel Stark", "A Software Engineer", "A Web Developer", "A Sound Designer", "A Gamer"],
+      strings: ["Daniel Stark", "A Software Engineer", "A Web Developer", "A DevOps Engineer", "A Sound Designer", "A Gamer"],
       loop: true,
       smartBackspace: false,
       typeSpeed: 50,
