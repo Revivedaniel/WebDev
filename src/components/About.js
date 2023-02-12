@@ -7,16 +7,16 @@ const About = () => {
     <section id="about">
       <div className="container">
         <div className="roww">
-          {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`I'm someone who works excellently with teams, small and large. I'm very driven to learn new and better coding tools and libraries to further my skills and career. Not only that, but I love Video Games and especially Video Game Sound Design and Music.`}
+              {`As a highly skilled Software Engineer and Cloud solutions expert, I bring a wealth of knowledge to the table. Currently working for Microsoft on the Azure Resource Manager team, I provide crucial support to senior cloud engineers from various companies, guiding them through the development of Azure Policies, ARM templates, Bicep templates, and Terraform IAC. With a talent for troubleshooting unexpected behavior, I also share my expertise on best practices for IAC, Policy, and ARM SDKs.`}
+            </p>
+            <p className="desc">
+              {`When I'm not working, I moonlight as a Teaching Assistant for the UCLA Coding Bootcamp, imparting my knowledge to eager students as I guide them through the creation of full-stack web applications using the MERN stack. Whether it's frontend technologies like Semantic HTML, Responsive CSS, and DOM Manipulation with JavaScript, or backend technologies like Node, Express, GraphQL, MongoDB, and SQL, I'm a developer who brings both creativity and technical skill to the table.`}
             </p>
           </div>
-          {/* /Main Title */}
-          {/* About Information */}
           <div className="resumo_fn_about_info">
             <div className="about_left">
               <table>
@@ -51,7 +51,6 @@ const About = () => {
               </table>
             </div>
             <div className="about_right">
-              {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a href="img/Daniel_Stark.pdf" download>
                   <span className="icon">
@@ -86,13 +85,9 @@ const About = () => {
                   <span>Download Resume</span>
                 </a>
               </div>
-              {/* /Download CV Button */}
             </div>
           </div>
-          {/* /About Information */}
-          {/* Tabs Shortcode */}
           <div className="resumo_fn_tabs">
-            {/* Tab: Header */}
             <div className="tab_header">
               <ul>
                 <li className={activeList("tab1")}>
@@ -107,13 +102,9 @@ const About = () => {
                 </li>
               </ul>
             </div>
-            {/* /Tab: Header */}
-            {/* Tab: Content */}
             <div className="tab_content">
               
-              {/* #2 tab content */}
               <div id="tab2" className={`tab_item ${activeList("tab2")}`}>
-                {/* Boxed List */}
                 <div className="resumo_fn_boxed_list">
                   <ul>
                     <li>
@@ -130,44 +121,35 @@ const About = () => {
                     </li>
                   </ul>
                 </div>
-                {/* /Boxed List */}
               </div>
-              {/* /#2 tab content */}
-              {/* #3 tab content */}
               <div id="tab1" className={`tab_item ${activeList("tab1")}`}>
-                {/* Progress Bar */}
                 <div className="resumo_fn_progress_bar">
                     <div className="item_in">
-                      <h3 className="progress_title">HTML5, CSS3, JavaScript ES6+, jQuery, JSX</h3>
+                      <h3 className="progress_title">React.js, Next.js, HTML5, JavaScript ES6+</h3>
                     </div>
                     <div className="item_in">
-                      <h3 className="progress_title">C#, Typescript, SQL, NoSQL, Git</h3>
+                      <h3 className="progress_title"> CSS3, Bootstrap, Material UI</h3>
                     </div>
                     <div className="item_in">
-                      <h3 className="progress_title">React, Next, Handlebars, Apollo, Bootstrap</h3>
+                      <h3 className="progress_title">Express(REST), GraphQL, JsonWebToken(JWT)</h3>
                     </div>
                     <div className="item_in">
-                      <h3 className="progress_title">Mongoose, Sequelize, MySQL2</h3>
+                      <h3 className="progress_title"> SQL, NoSQL, Mongoose(MongoDB), Sequelize(MySQL)</h3>
                     </div>
                     <div className="item_in">
-                      <h3 className="progress_title">Express, GraphQL, Keystone, Axios, BCrypt, Dotenv, JsonWebToken, Stripe</h3>
+                      <h3 className="progress_title">C#, Typescript, Git</h3>
                     </div>
                 </div>
                 
 
-                {/* /Progress Bar */}
-                {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                  As a Software Engineer, I am well based in many technologies. Most of which being Web. However, I recently started developing video games for fun. I've been learning more .Net Core, C#, and Unity.
+                    Comfortable working in MERN and ASP .NET stacks. Open to learning new technologies and frameworks. Very familiar with Agile development methodologies. Great understanding of Object Oriented Programming and Software Design Patterns.
                   </p>
                 </div>
               </div>
-              {/* /#2 tab content */}
             </div>
-            {/* /Tab: Content */}
           </div>
-          {/* /Tabs Shortcode */}
         </div>
       </div>
     </section>
