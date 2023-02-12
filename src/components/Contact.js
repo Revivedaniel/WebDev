@@ -50,126 +50,15 @@ const Contact = () => {
     <section id="contact">
       <div className="container">
         <div className="roww resumo_fn_contact">
-          {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">Contact</h3>
             <h3 className="title">Get In Touch</h3>
             <p className="desc">
-            Have a dream project? Let's talk! I am currently available for freelance and full-time employment.  
+              Reach out to me on LinkedIn or send me an email. I look forward to hearing from you!  
             </p>
-          </div>
-          {/* /Main Title */}
-          {/* Contact Form */}
-          <form className="contact_form" onSubmit={(e) => onSubmit(e)}>
-            <div
-              className="success"
-              data-success="Your message has been received, we will contact you soon."
-              style={{ display: success ? "block" : "none" }}
-            >
-              <span className="contact_success">
-                Your message has been received, I will contact you soon.
-              </span>
-            </div>
-            <div
-              className="empty_notice"
-              style={{ display: error ? "block" : "none" }}
-            >
-              <span>{defaultError}</span>
-            </div>
-            {/* */}
-            <div className="items_wrap">
-              <div className="items">
-                <div className="item half">
-                  <div
-                    className={`input_wrapper ${
-                      active === "name" || name ? "active" : ""
-                    }`}
-                  >
-                    <input
-                      onFocus={() => setActive("name")}
-                      onBlur={() => setActive(null)}
-                      onChange={(e) => onChange(e)}
-                      value={name}
-                      name="name"
-                      id="name"
-                      type="text"
-                    />
-                    <span className="moving_placeholder">Name *</span>
-                  </div>
-                </div>
-                <div className="item half">
-                  <div
-                    className={`input_wrapper ${
-                      active === "email" || email ? "active" : ""
-                    }`}
-                  >
-                    <input
-                      onFocus={() => setActive("email")}
-                      onBlur={() => setActive(null)}
-                      onChange={(e) => onChange(e)}
-                      value={email}
-                      name="email"
-                      id="email"
-                      type="email"
-                    />
-                    <span className="moving_placeholder">Email *</span>
-                  </div>
-                </div>
-                <div className="item">
-                  <div
-                    className={`input_wrapper ${
-                      active === "phone" || phone ? "active" : ""
-                    }`}
-                  >
-                    <input
-                      onFocus={() => setActive("phone")}
-                      onBlur={() => setActive(null)}
-                      id="phone"
-                      onChange={(e) => onChange(e)}
-                      value={phone}
-                      name="phone"
-                      type="text"
-                    />
-                    <span className="moving_placeholder">Phone</span>
-                  </div>
-                </div>
-                <div className="item">
-                  <div
-                    className={`input_wrapper ${
-                      active === "message" || msg ? "active" : ""
-                    }`}
-                  >
-                    <textarea
-                      onFocus={() => setActive("message")}
-                      onBlur={() => setActive(null)}
-                      name="msg"
-                      onChange={(e) => onChange(e)}
-                      value={msg}
-                      id="message"
-                    />
-                    <span className="moving_placeholder">Message</span>
-                  </div>
-                </div>
-                <div className="item">
-                  {/* <a id="send_message" href="#">
-                    Send Message
-                  </a> */}
-                  <input
-                    className="a"
-                    type="submit"
-                    id="send_message"
-                    value="Send Message"
-                  />
-                </div>
-              </div>
-            </div>
-          </form>
-          {/* /Contact Form */}
-          {/* Contact Info */}
-          <div className="resumo_fn_contact_info">
-            <p>Phone</p>
+            <p>LinkedIn</p>
             <h3>
-              <a href="tel:+16575290501">(+1) 949 396-3988</a>
+              <a href="https://www.linkedin.com/in/dannyjstark/">Daniel Stark</a>
             </h3>
             <p>
               <a className="fn__link" href="mailto:contact@danielstark.dev">
@@ -177,7 +66,6 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          {/* /Contact Info */}
         </div>
       </div>
     </section>
