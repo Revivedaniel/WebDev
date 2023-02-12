@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSliderProps } from "../sliderProps";
 import Modalbox from "./Modalbox";
-const Portfolio = () => {
+const SoftwareEngineerPortfolio = () => {
   const [modal, setModal] = useState(false);
   const [modalValue, setModalValue] = useState(null);
   return (
@@ -10,7 +10,6 @@ const Portfolio = () => {
       {modal && <Modalbox close={setModal} value={modalValue} />}
       <div className="container">
         <div className="row">
-          {/* Main Title */}
           <div className="resumo_fn_main_title">
             <div className="my__nav">
               <a href="#" className="prev">
@@ -20,10 +19,9 @@ const Portfolio = () => {
                 <span />
               </a>
             </div>
-            <h3 className="subtitle">Portfolio</h3>
+            <h3 className="subtitle">Software Engineer Portfolio</h3>
             <h3 className="title">Featured Projects</h3>
           </div>
-          {/* /Main Title */}
         </div>
       </div>
       <div className="container noright">
@@ -44,11 +42,10 @@ const Portfolio = () => {
               data-index={1}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                {/* Put project image in this div as data-bg-img */}
+                <img src="img/thumb/square.webp" alt="image" />
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/beforeYouPlay.jpg"
+                  data-bg-img="img/portfolio/beforeYouPlay.webp"
                 />
               </div>
               <div className="title_holder">
@@ -71,11 +68,10 @@ const Portfolio = () => {
               data-index={2}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                {/* Put project image in this div as data-bg-img */}
+                <img src="img/thumb/square.webp" alt="image" />
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/midnightMotorsports.PNG"
+                  data-bg-img="img/portfolio/midnightMotorsports.webp"
                 />
               </div>
               <div className="title_holder">
@@ -98,19 +94,18 @@ const Portfolio = () => {
               data-index={3}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                {/* Put project image in this div as data-bg-img */}
+                <img src="img/thumb/square.webp" alt="image" />
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/lazyAfternoonBlog.PNG"
+                  data-bg-img="img/portfolio/eveLogistics.webp"
                 />
               </div>
               <div className="title_holder">
                 {/* Project type */}
-                <p>Full Stack Web Application, Social, Video Games</p>
+                <p>Full Stack Web Application build with the MERN stack</p>
                 <h3>
                   {/* Project name */}
-                  <a href="#">Lazy Afternoon Blog</a>
+                  <a href="#">Eve logistics</a>
                 </h3>
               </div>
             </SwiperSlide>
@@ -121,4 +116,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default SoftwareEngineerPortfolio;

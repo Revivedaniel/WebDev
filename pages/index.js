@@ -3,33 +3,18 @@ import Contact from "../src/components/Contact";
 import Customers from "../src/components/Customers";
 import Home from "../src/components/Home";
 import News from "../src/components/News";
-import Portfolio from "../src/components/Portfolio";
-import Services from "../src/components/Services";
+import SoftwareEngineerPortfolio from "../src/components/SoftwareEngineerPortfolio";
 import Layout from "../src/layouts/Layout";
+import CloudEngineerPortfolio from "../src/components/CloudEngineerPortfolio";
 
 const Index = () => {
   return (
     <Layout>
       <Home />
-      {/* /Home Section */}
-      {/* About Section */}
       <About />
-      {/* /About Section */}
-      {/* Portfolio Section */}
-      <Portfolio />
-      {/* /Portfolio Section */}
-      {/* Services Section */}
-      {/* <Services /> */}
-      {/* /Services Section */}
-      {/* Customers Section */}
-      {/* <Customers /> */}
-      {/* /Customers Section */}
-      {/* News Section */}
-      {/* <News /> */}
-      {/* /News Section */}
-      {/* Contact Section */}
+      <SoftwareEngineerPortfolio />
+      <CloudEngineerPortfolio />
       <Contact />
-      {/* /Contact Section */}
     </Layout>
   );
 };
