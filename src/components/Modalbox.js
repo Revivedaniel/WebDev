@@ -8,11 +8,11 @@ const Modalbox = ({ close, value }) => {
       tag: "Full Stack Web Application, Video Games",
       desc: [
         {
-          p: "A Full-Stack MERN Video Game information and Review website. This is a Create React App using GraphQL, Node.js, and MongoDB. Before You Play is in its MVP stage and is an ongoing project.",
+          p: "A Full Stack MERN App which generates video game information using OpenAI.",
         },
       ],
       gitHub: "BeforeYouPlay",
-      liveSite: "https://beforeyouplay.herokuapp.com/",
+      liveSite: "https://before-you-play.herokuapp.com/",
     },
     {
       name: "Midnight Motorsports",
@@ -25,15 +25,15 @@ const Modalbox = ({ close, value }) => {
       gitHub: "midnightmotorsports-next",
     },
     {
-      name: "Lazy Afternoon Blog",
-      tag: "Full Stack Web Application, Blog, Video Games",
+      name: "Eve Logistics",
+      tag: "Full Stack Web Application, Tools, Eve Online",
       desc: [
         {
-          p: "Full-Stack blog site where users can post and share their thoughts about many topics with other users.",
+          p: "This website is a a third party application that aims to help Eve Online plays with Logistics such as assets, industry, Market, and Hauling.",
         },
       ],
-      gitHub: "LazyAfternoonBlog",
-      liveSite: "https://lazy-afternoon-blog.herokuapp.com/",
+      gitHub: "EveLogistics-Frontend",
+      liveSite: "https://www.eveonlinelogistics.com"
     },
   ];
 
