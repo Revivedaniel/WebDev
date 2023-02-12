@@ -38,6 +38,11 @@ const CloudEngineerPortfolio = () => {
                 </a>
               </li>
               <li>
+                <a href="https://learn.microsoft.com/en-us/users/danielstark-7295/transcript/dgok4b5kx6xgr84"  rel="noreferrer" target="_blank">
+                  <img src="img/cloud/az900.webp" alt="image" />
+                </a>
+              </li>
+              <li>
                 <a href="https://azure.microsoft.com/en-us/products/virtual-machines"   rel="noreferrer" target="_blank">
                   <img src="img/cloud/vm.webp" alt="image" />
                 </a>
