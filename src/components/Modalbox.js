@@ -72,7 +72,7 @@ const Modalbox = ({ close, value }) => {
                     <p className="fn__cat">{d.tag}</p>
                     <h3 className="fn__title">{d.name}</h3>
                     <div className="img_holder">
-                      <img src="/img/thumb/square.jpg" alt="" />
+                      <img src="/img/thumb/square.webp" alt="" />
                       <div
                         className="abs_img"
                         data-bg-img={`/img/portfolio/${index}.gif`}
@@ -131,7 +131,7 @@ const Modalbox = ({ close, value }) => {
               className="prev"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 1 ? 5 : index - 1);
+                setIndex(index == 1 ? 3 : index - 1); // Change this when adding more projects
               }}
             >
               <span className="text">Prev</span>
@@ -144,7 +144,7 @@ const Modalbox = ({ close, value }) => {
               className="next"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 5 ? 1 : index + 1);
+                setIndex(index == 3 ? 1 : index + 1); // Change this when adding more projects
               }}
             >
               <span className="text">Next</span>
